@@ -108,7 +108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87b793618f1a4b0eb6827bbe941439d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _inputSystemType: 1
   _moveAction: {fileID: -1680190386980627800, guid: 73260edee68d94231a15c3289e335fba,
     type: 3}
   _lookAction: {fileID: -5630151704836100654, guid: 73260edee68d94231a15c3289e335fba,
@@ -117,12 +116,6 @@ MonoBehaviour:
     type: 3}
   _sprintAction: {fileID: -8226471646258033528, guid: 73260edee68d94231a15c3289e335fba,
     type: 3}
-  _horizontalAxisName: Horizontal
-  _verticalAxisName: Vertical
-  _mouseXAxisName: Mouse X
-  _mouseYAxisName: Mouse Y
-  _jumpButtonName: Jump
-  _sprintKey: 304
   _move: {x: 0, y: 0}
   _look: {x: 0, y: 0}
   _jump: 0
