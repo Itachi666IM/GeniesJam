@@ -88,7 +88,7 @@ public class LoginController : MonoBehaviour
     {
         statusText.text = "User logged in.";
         playerRoot.SetActive(true);
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     // Triggered when the user clicks the "Logout" button
