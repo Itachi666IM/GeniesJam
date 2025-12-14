@@ -6,7 +6,6 @@ public class AvatarController : MonoBehaviour
     [SerializeField] private string avatarName = "MyAvatar";
     [SerializeField] private Transform parentTransform = null;
     [SerializeField] private RuntimeAnimatorController animatorController = null;
-    [SerializeField] private GameObject uiJoysticks = null;
 
     private void Start()
     {
@@ -29,6 +28,5 @@ public class AvatarController : MonoBehaviour
     {
         ManagedAvatar userAvatar = await AvatarSdk.LoadUserAvatarAsync(avatarName, parentTransform, animatorController);
         Debug.Log("User Avatar Loaded: " + userAvatar.Root.name);
-        uiJoysticks.SetActive(true);
     }
 }
